@@ -1,3 +1,3 @@
 # firstrepo
 
-##first video in embeded system consept
+## first video in embeded system consept
