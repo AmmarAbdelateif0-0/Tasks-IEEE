@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int num ;
+printf("Enter Number ");
+scanf("%d",&num);
+if(num&1)
+printf("LSB of %d is set (1).",num);
+else
+printf("LSB of %d is set (0).",num);
+
+}

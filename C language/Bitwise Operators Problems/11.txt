@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int num,newnum ;
+printf("Enter Number ");
+scanf("%d",&num);
+newnum=~num;
+printf("number before flipped =%d\n",num);
+printf("Number after bits are flipped = %d ", newnum);
+
+}

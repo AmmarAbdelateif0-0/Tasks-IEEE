@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int num,bit ;
+printf("Enter Number ");
+scanf("%d",&num);
+printf("Enter bit you want check ");
+scanf("%d",&bit);
+
+if(num&(1<<bit))
+// or if ((num>>bit)&1)
+printf("LSB of %d is set (1).",num);
+else
+printf("LSB of %d is set (0).",num);
+
+}

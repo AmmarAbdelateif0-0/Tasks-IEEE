@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+int num1 ,num2;
+scanf("%d %d",&num1,&num2);
+// sum
+printf("SUM =%d \n",num1+num2);
+//Difference
+printf("Difference =%d \n",num1-num2);
+//Product
+printf("Product =%d \n",num1*num2);
+//Quotient
+printf("Quotient =%f \n",(float)num1/num2);
+//Modulus
+printf("Modulus =%d \n",num1%num2);
+
+}

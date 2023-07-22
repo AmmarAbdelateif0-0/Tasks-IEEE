@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+float length ,width;
+printf("enter lenght  \n");
+scanf("%f",&length);
+printf("enter width  \n");
+scanf("%f",&width);
+
+printf("Perimeter of rectangle = %.2f units",2*(length+width));
+
+}

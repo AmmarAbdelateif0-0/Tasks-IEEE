@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float mark,sum=0;
+for(int i=1;i<=5;i++)
+{
+    printf("enter mark for subject %d \n",i);
+    scanf("%f",&mark);
+    sum+=mark;
+}
+printf("Total marks = %.2f\n", sum);
+printf("Average marks = %.2f\n", sum/5);
+printf("Percentage = %.2f", (sum/500)*100);
+
+
+}

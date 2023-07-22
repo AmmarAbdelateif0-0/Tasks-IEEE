@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int num,bit,newnum ;
+printf("Enter Number ");
+scanf("%d",&num);
+printf("Enter bit you want set (0-31) ");
+scanf("%d",&bit);
+newnum=num | (1<<bit);
+printf("number before set %d\n",num);
+printf("number after set %d",newnum);
+
+}

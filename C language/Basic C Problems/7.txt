@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float length;
+printf("Enter length in centimeter = ");
+scanf("%f",&length);
+printf("Length in meter = %.2f m \n",length/100.0);
+printf("Length in kilometer = %.2f km",length/(1000.0*100.0));
+}
+
