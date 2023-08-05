@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+int a1,a2,a3 ;
+printf("Input first angle:  \n");
+scanf("%d", &a1);
+printf("Input second angle: \n");
+scanf("%d", &a2);
+printf("Input third angle: \n");
+scanf("%d", &a3);
+
+if(a1+a2+a3==180 &&a1>0&&a2>0&&a3>0)
+{
+    printf("The triangle is valid \n");
+}
+else
+{
+    printf("The triangle is not valid \n");
+}
+
+}

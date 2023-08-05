@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Enter number: ");
+    scanf("%d", &num);
+    printf("Sum of natural numbers 1-%d = %d",num,(num*(num+1)/2));
+
+    return 0;
+}

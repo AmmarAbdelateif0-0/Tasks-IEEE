@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+#define base 2 
+int main()
+{
+long long binary,decimal=0,temp,n=0;
+printf("enter binary number : \n");
+scanf("%lld",&binary);
+temp = binary ;
+while(temp !=0)
+{
+   if(temp %10 ==1)
+   {
+    decimal += pow(base,n);
+   }
+     n++;
+    temp/=10;
+
+}
+printf("Binary number = %lld\n", binary);
+printf("Decimal number= %lld", decimal);
+
+}

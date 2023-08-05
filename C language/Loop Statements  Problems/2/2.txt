@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    /* Input start range from user */
+    printf("Enter starting value: ");
+    scanf("%d", &num);
+    for(int i=num; i>=1; i--)
+    {
+        printf("%d ", i);
+    }
+
+    return 0;
+}

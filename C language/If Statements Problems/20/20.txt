@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+float basic,da,hra ,groos; 
+
+printf("Input basic salary of an employee: \n");
+scanf("%f",&basic);
+if(basic<=10000)
+{
+    hra=0.2*basic;
+    da=0.8*basic;
+}
+else if(basic<=20000)
+{
+    hra=0.25*basic;
+    da=0.9*basic;
+}
+else
+{
+    hra=0.3*basic;
+    da=0.95*basic;
+}
+groos=basic+hra+da;
+ printf("GROSS SALARY = %.2f",groos);
+
+}
+/*
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary is between 10001 to 20000 : HRA = 25%, DA = 90%
+Basic Salary >= 20001 : HRA = 30%, DA = 95%
+*/

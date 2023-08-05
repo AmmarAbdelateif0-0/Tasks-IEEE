@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int base,exponent,power=1;
+printf("Input base = \n");
+scanf("%d", &base);
+printf("Input exponent = \n");
+scanf("%d", &exponent);
+
+for(int i=1;i<=exponent;i++)
+{
+    power*=base;
+}
+
+
+         printf("%d ^ %d = %d",base,exponent,power);
+   
+    return 0;
+}

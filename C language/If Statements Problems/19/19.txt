@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+int g1,g2,g3,g4,g5;
+float Percentage ; 
+
+printf("Input marks of five subjects: \n");
+scanf("%d%d%d%d%d", &g1, &g2, &g3 ,&g4,&g5);
+Percentage = (g1+g2+g3+g4+g5)/5.0;
+printf("Percentage %.2f\n",Percentage);
+
+if(Percentage<=100 && Percentage >=90)
+{
+    printf("Grade A \n");
+}
+
+else if(Percentage<90 && Percentage >=80)
+{
+    printf("Grade B \n");
+}
+
+else if(Percentage<80 && Percentage >=70)
+{
+    printf("Grade C \n");
+}
+else if(Percentage<70 && Percentage >=60)
+{
+    printf("Grade D \n");
+}
+else if(Percentage<60 && Percentage >=40)
+{
+    printf("Grade E \n");
+}
+else if(Percentage<40 && Percentage >=0)
+{
+    printf("Grade F \n");
+}
+}
